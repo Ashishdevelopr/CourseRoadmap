@@ -1,0 +1,19 @@
+.leadback{
+    background-color: #2ea44f  ;
+    color: #fff;
+    border-radius: 12px;
+}
+.buttonpri{
+    
+        background-color:#fff !important;
+        color:#2ea44f !important;
+        border-radius:0.25rem !important;
+    
+    
+     }
+     .buttonpri:hover{
+        background-color: #207333 !important;
+        color: white !important;
+        border-radius: 0.25rem !important;
+    
+    }

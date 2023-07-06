@@ -1,0 +1,32 @@
+*,*::before,*::after{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  body {
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: #051008;
+  }
+
+    
+
+.navbar-expand-md{
+  background-color: #ffffff !important;
+  /* background-color: #051008 !important; */
+}
+
+@media (max-width:450px){ 
+.searchbox{
+  margin-left:5rem;
+}}
+
+
+    
+  

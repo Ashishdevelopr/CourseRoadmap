@@ -1,0 +1,24 @@
+#back{
+    background:url(./1.svg), 
+    linear-gradient(180deg, rgba(70, 117, 70, 0.072) 50%,#eaf6ed 100%);
+     background-position:center;
+    background-size: cover;
+    /* border: 1px solid white; */
+    margin-top: 70px;
+}
+
+i{
+ color: #2b703e;
+}
+.textanimation{
+    font-size:4rem;
+}
+@media(max-width:500px){
+    .textanimation{
+      font-size: 3.1rem;
+    }
+}
+.info{
+    padding-top: 20px;
+    padding-bottom: 70px;
+}

@@ -1,0 +1,40 @@
+*,*::before,*::after{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  body {
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+ }
+
+ .buttonprimary{
+    background-color:#2ea44f !important;
+    color:white !important;
+    border-radius:0.25rem !important;
+
+
+ }
+ .buttonprimary:hover{
+    background-color: #207333 !important;
+    color: white !important;
+    border-radius: 0.25rem !important;
+
+}
+
+ .buttonprimaryout{
+
+   border: 1.5px solid #2ea44f !important;
+    color: #207333 !important;
+
+}
+
+.buttonprimaryout:hover{
+   background-color: #2ea44f !important;
+   color: white !important;
+}

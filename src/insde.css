@@ -1,0 +1,70 @@
+<div className="d-md-flex gap-4 me-3">
+            <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" id="icon" class="search">
+                  <i className="bi bi-search"></i>
+            </button>
+            <a className="me-4"> <i className="bi bi-brightness-high" id="icon"></i></a>
+        </div>
+
+
+
+
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <a class="navbar-brand" href="#">Offcanvas navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+        <ul className="navbar-nav m-auto">
+        
+        <li className="nav-item mx-2">
+          <a className="nav-link" href="#">Features</a>
+        </li>
+        <li className="nav-item dropdown mx-2">
+          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Roadmap
+          </a>
+          <ul className="dropdown-menu">
+            <li><a className="dropdown-item" href="#">Action</a></li>
+            <li><a className="dropdown-item" href="#">Another action</a></li>
+            <li><a className="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+
+    <div className="d-flex gap-3 d-md-flex me-4">
+    <a class="btn buttonprimary sm mx-auto  " href="#" role="button">SignUp</a>
+    <a class="btn buttonprimaryout sm mx-auto  " href="#" role="button">SignIn</a>
+    </div>
+            </div>
+      </nav>
+
+
+
+
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul className="navbar-nav m-auto">
+        
+        <li className="nav-item mx-2">
+          <a className="nav-link" href="#">Features</a>
+        </li>
+        <li className="nav-item dropdown mx-2">
+          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Roadmap
+          </a>
+          <ul className="dropdown-menu">
+            <li><a className="dropdown-item" href="#">Action</a></li>
+            <li><a className="dropdown-item" href="#">Another action</a></li>
+            <li><a className="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+
+    <div className="d-flex gap-3 d-md-flex me-4">
+    <a class="btn buttonprimary sm mx-auto  " href="#" role="button">SignUp</a>
+    <a class="btn buttonprimaryout sm mx-auto  " href="#" role="button">SignIn</a>
+    </div>
+    </div>
+    </div>
