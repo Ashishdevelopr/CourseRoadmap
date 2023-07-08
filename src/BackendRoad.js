@@ -4,8 +4,19 @@ import Backend from './Backend'
 import {TbChecks} from 'react-icons/tb'
 import Footer from "./Footer"
 import logo from "./logo.png"
+import { useLocation } from 'react-router-dom'
 
 const BackendRoad = () => {
+    const { pathname } = useLocation();
+  
+    useEffect(() => {
+      // "document.documentElement.scrollTo" is the magic for React Router Dom v6
+      document.documentElement.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "instant", // Optional if you want to skip the scrolling animation
+      });
+    }, [pathname]);
   return (
     <section id="backend">
   <nav className="navbar navbar-expand-md fixed-top bg-light shadow-sm">
