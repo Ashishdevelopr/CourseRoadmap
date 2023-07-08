@@ -7,8 +7,6 @@
 }
 .accordion-button:hover{
     color: #2ea44f;
-
-
 }
 .accordion-button {
     padding: 0px;
@@ -49,4 +47,9 @@
     font-size: 48px;
     transform: translate(-5px, -4px);
     transform: rotate(0deg);
+}
+
+.routing-faq{
+    padding-top: 80px;
+    margin-bottom: 40px;
 }

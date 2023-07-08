@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import axios from "axios";
-import { Navigate } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
 import "./Signup.css";
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -40,7 +40,7 @@ const Signup = () => {
     }
 
     return (
-        <div className="form-wrapper">
+        <div className="form-wrapper routing-signup">
             <div className="card">
                 <div className="logo">
                     <h3>CareerRoadmap</h3>
@@ -83,7 +83,7 @@ const Signup = () => {
                     <hr mt-1 />
                     <div>
                         <p className="text-center">Do you already have an account? <br />
-                            <a href="./signin" className="link">Sign in</a></p>
+                            <NavLink to="/signin" className="link">Sign in</NavLink></p>
                     </div>
                 </form>
 

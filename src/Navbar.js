@@ -15,6 +15,7 @@ const Navbar = () => {
   return (
     <>
       {/* Serach box */}
+      <div id="navbar">
       <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModal" aria-hidden="true">
         <div className="modal-dialog">
           <div className="modal-content">
@@ -96,6 +97,7 @@ const Navbar = () => {
         <Route path="/signin" element={<Signin />} />
         <Route path="/reset" element={<Reset />} />
       </Routes>
+      </div>
     </>
   )
 }

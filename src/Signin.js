@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import "./Signin.css"
+import { NavLink } from 'react-router-dom';
 
 const Signin = () => {
     const navigate = useNavigate();
@@ -42,7 +43,7 @@ const Signin = () => {
     }
 
   return (
-    <div className="container-fulid">
+    <div className="container-fulid routing-signin">
     <div className="form-wrapper">
     <div className="card"> 
                 <div className="logo">
@@ -85,7 +86,7 @@ const Signin = () => {
                     <hr mt-1/>
                     <div>
                     <p className="text-center">Don't have an account? <br/>
-                    <a href="./signup" className="link">Sign up</a></p>
+                    <NavLink to="/signup" className="link">Sign up</NavLink></p>
                     </div>
                 </form>
     </div>

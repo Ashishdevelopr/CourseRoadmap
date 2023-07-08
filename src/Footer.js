@@ -24,13 +24,13 @@ const Footer = () => {
             <h5 className="fw-semibold">Company</h5>
             <ul className="list-unstyled">
               <li>
-                <NavLink to="/" className="text-decoration-none">Home</NavLink>
+                <a href="/#navbar" className="text-decoration-none">Home</a>
               </li>
               <li>
                 <a href="/#about" className="text-decoration-none">About Us</a>
               </li>
               <li>
-                <NavLink to="/" className="text-decoration-none">Course Map</NavLink>
+                <a href="/#navbar" className="text-decoration-none">Course Map</a>
               </li>
               <li>
               <NavLink to="/signin" className="text-decoration-none">Contact</NavLink>
@@ -46,10 +46,10 @@ const Footer = () => {
                 <NavLink to="/signin" className="text-decoration-none">Help & Support</NavLink>
               </li>
               <li>
-                <NavLink to="/#FAQ" className="text-decoration-none">FAQ's</NavLink>
+                <a href="/#FAQ" className="text-decoration-none">FAQ's</a>
               </li>
               <li>
-                <NavLink to="/#about" className="text-decoration-none">Features</NavLink>
+                <a href="/#about" className="text-decoration-none">Features</a>
               </li>
             </ul>
           </div>
@@ -67,7 +67,7 @@ const Footer = () => {
               </li>
               
               <li>
-                <p> Phone: <a href="/" className="text-decoration-none link-success">9324280652</a>
+                <p> Phone: <a href="/#navbar" className="text-decoration-none link-success">9324280652</a>
                 </p>
               </li>
               

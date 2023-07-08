@@ -3,7 +3,7 @@ import "./Faq.css"
 const Faq = () => {
   return (
     <section id="FAQ">
- <div className="lg-container px-5 py-5 mx-auto containerreview all-body">
+ <div className="lg-container routing-faq mx-auto containerreview all-body">
                 <div className="row">
                     <div className="col-md-10 mx-auto text-center">
                         <h2 className="display-6 fw-bold">Frequently Asked Questions.</h2>
