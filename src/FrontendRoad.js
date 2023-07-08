@@ -5,7 +5,7 @@ import Footer from "./Footer"
 import {TbChecks} from 'react-icons/tb'
 import logo from "./logo.png"
 import { useLocation } from 'react-router-dom'
-
+import { useEffect } from 'react'
 
 const FrontendRoad = () => {
     const { pathname } = useLocation();
