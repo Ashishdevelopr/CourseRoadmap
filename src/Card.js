@@ -4,6 +4,7 @@ import back from "./back.png"
 import front from "./front.png"
 import digi from "./digi.png"
 import block from "./block.png"
+import { NavLink } from 'react-router-dom'
 
 const Card = () => {
     return (
@@ -26,33 +27,33 @@ const Card = () => {
                         <div className="card-body">
                             <h5 className="card-title"><b>Backend Developer</b></h5><br />
                             <p className="card-text">Become an in-demand, Backend developer driving customer strategies and business growth .</p>
-                            <a href="/backend" className="btn buttonprimaryout">Explore Now</a>
+                            <NavLink to="/backend" className="btn buttonprimaryout">Explore Now</NavLink>
                         </div>
                     </div>
 
                     <div className="card p-0" style={{ width: "17rem", border: "none" }}>
-                        <img src={front} className="card-img-top" alt="..." />
+                        <img src={front} className="card-img-top" alt="image" />
                         <div className="card-body">
                             <h5 className="card-title"><b>Frontend Developer</b></h5><br />
                             <p className="card-text">Become an in-demand, Frontend developer driving customer strategies and business growth .</p>
-                            <a href="/frontend" className="btn buttonprimaryout">Explore Now</a>
+                            <NavLink to="/frontend" className="btn buttonprimaryout">Explore Now</NavLink>
                         </div>
                     </div>
 
                     <div className="card p-0" style={{ width: "17rem", border: "none" }}>
-                        <img src={block} className="card-img-top" alt="..." />
+                        <img src={block} className="card-img-top" alt="image" />
                         <div className="card-body">
                             <h5 className="card-title"><b>Learn Blockchain</b></h5><br />
                             <p className="card-text">Learn the Blockchain driving and customer strategies and business growth .</p>
-                            <a href="/blockchain" className="btn buttonprimaryout">Explore Now</a>
+                            <NavLink to="/blockchain" className="btn buttonprimaryout">Explore Now</NavLink>
                         </div>
                     </div>
                     <div className="card p-0" style={{ width: "17rem", border: "none" }}>
-                        <img src={digi} className="card-img-top" alt="..." />
+                        <img src={digi} className="card-img-top" alt="image" />
                         <div className="card-body">
                             <h5 className="card-title"><b>Digital Marketing</b></h5><br />
                             <p className="card-text">Become an in-demand, digital marketer driving customer strategies and business growth .</p>
-                            <a href="/frontend" className="btn buttonprimaryout">Explore Now</a>
+                            <NavLink to="/frontend" className="btn buttonprimaryout">Explore Now</NavLink>
                         </div>
                     </div>
                 </div>

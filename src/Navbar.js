@@ -6,6 +6,7 @@ import Signup from './Signup'
 import Reset from './Reset'
 import { Route, Routes, useNavigate } from 'react-router-dom'
 import logo from "./logo.png"
+import { NavLink } from 'react-router-dom'
 
 
 const Navbar = () => {
@@ -70,11 +71,9 @@ const Navbar = () => {
                   Roadmap
                 </a>
                 <ul className="dropdown-menu mb-3">
-                  <li><Navlink to="/frontend" className="dropdown-item" onClick={()=>navigate("/frontend")}>Frontend Development</Navlink></li>
-                  <li><Navlink to="/backend" className="dropdown-item" onClick={()=>navigate("/backend")}>Frontend Development</Navlink></li>
-                  <li><Navlink to="/blockchain" className="dropdown-item" onClick={()=>navigate("/blockchain")}>Frontend Development</Navlink></li>
-                  {/* <li><a className="dropdown-item" href="/backend">Backend Development</a></li>
-                  <li><a className="dropdown-item" href="/blockchain">Blockchain Development</a></li> */}
+                  <li><NavLink to="/frontend" className="dropdown-item" onClick={()=>navigate("/frontend")}>Frontend Development</NavLink></li>
+                  <li><NavLink to="/backend" className="dropdown-item" onClick={()=>navigate("/backend")}>Backend Development</NavLink></li>
+                  <li><NavLink to="/blockchain" className="dropdown-item" onClick={()=>navigate("/blockchain")}>Blockchain Development</NavLink></li>
                 </ul>
               </li>
               <li className="nav-item mx-2">
@@ -83,8 +82,8 @@ const Navbar = () => {
             </ul>
 
             <div className="d-flex gap-3 d-md-flex me-4">
-              <a className="btn buttonprimary sm mx-auto" href="./signup" role="button">SignUp</a>
-              <a className="btn buttonprimaryout sm mx-auto" href="./signin" role="button">SignIn</a>
+              <NavLink className="btn buttonprimary sm mx-auto" to="/signup" role="button">SignUp</NavLink>
+              <NavLink className="btn buttonprimaryout sm mx-auto" to="/signin" role="button">SignIn</NavLink>
             </div>
           </div>
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Footer.css"
 import {BsLinkedin, BsGithub} from "react-icons/bs"
+import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -23,16 +24,16 @@ const Footer = () => {
             <h5 className="fw-semibold">Company</h5>
             <ul className="list-unstyled">
               <li>
-                <a href="/" className="text-decoration-none">Home</a>
+                <NavLink to="/" className="text-decoration-none">Home</NavLink>
               </li>
               <li>
                 <a href="/#about" className="text-decoration-none">About Us</a>
               </li>
               <li>
-                <a href="/" className="text-decoration-none">Course Map</a>
+                <NavLink to="/" className="text-decoration-none">Course Map</NavLink>
               </li>
               <li>
-                <a href="./signup" className="text-decoration-none">Contact</a>
+              <NavLink to="/signin" className="text-decoration-none">Contact</NavLink>
               </li>
             </ul>
           </div>
@@ -42,13 +43,13 @@ const Footer = () => {
           <h5 className="fw-semibold">Support</h5>
             <ul className="list-unstyled">
               <li>
-                <a href="/signin" className="text-decoration-none">Help & Support</a>
+                <NavLink to="/signin" className="text-decoration-none">Help & Support</NavLink>
               </li>
               <li>
-                <a href="/#FAQ" className="text-decoration-none">FAQ's</a>
+                <NavLink to="/#FAQ" className="text-decoration-none">FAQ's</NavLink>
               </li>
               <li>
-                <a href="/#about" className="text-decoration-none">Features</a>
+                <NavLink to="/#about" className="text-decoration-none">Features</NavLink>
               </li>
             </ul>
           </div>
@@ -61,12 +62,12 @@ const Footer = () => {
                 <p>Lokandwala Township, Kandivali  Mumbai 400101</p>
               </li>
               <li>
-                <p> Email: <a href="#" className="text-decoration-none link-success">ashishdevelopr@gmail.com</a>
+                <p> Email: <a href="https://github.com/Ashishdevelopr" target='_blank' className="text-decoration-none link-success">ashishdevelopr@gmail.com</a>
                 </p>
               </li>
               
               <li>
-                <p> Phone: <a href="#" className="text-decoration-none link-success">9324280652</a>
+                <p> Phone: <a href="/" className="text-decoration-none link-success">9324280652</a>
                 </p>
               </li>
               

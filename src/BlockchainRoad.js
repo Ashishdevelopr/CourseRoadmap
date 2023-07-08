@@ -16,16 +16,14 @@ const BlockchainRoad = () => {
         <div className="container-fluid py-2">
 
           {/* Navbar Logo */}
-
           <div className='col-md-2'>
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="/">
               <img src={logo} style={{ width: "45px", height: "45px" }} />
             </a>
           </div>
           <div className="col-md-10 mx-auto text-center p-0 res-head">
             <h2 className="fw-bold p-0 m-0">Blockchain Development</h2>
           </div>
-
         </div>
       </nav>
 
@@ -33,10 +31,8 @@ const BlockchainRoad = () => {
         <Blockchain />
       </div>
 
-
       <div className="container-fluid py-5" style={{ backgroundColor: "#2ea44f " }}>
         <div className="row mx-auto">
-
           <div className='col-md-8 col-12 '>
             <div className="shadow p-5 mb-4  bg-body rounded">
               <h3 className='fw-semibold'>Course Description</h3>
@@ -62,11 +58,8 @@ const BlockchainRoad = () => {
             </div>
           </div>
 
-
-
           <div className='col-md-4 col-12'>
             <div className="shadow p-5  bg-body rounded">
-
               <h3 className='fw-semibold'>What you’ll learn</h3>
               <ul className="list-inline">
                 <li className="list-item"><span><TbChecks style={{ color: "#2ea44f" }} /></span><span className="me-2 ms-1 ">Introduction to Blockchain</span></li>
@@ -78,23 +71,12 @@ const BlockchainRoad = () => {
                 <li className="list-item"><span><TbChecks style={{ color: "#2ea44f" }} /></span><span className="me-2  ms-1">Decentralized Applications </span></li>
                 <li className="list-item"><span><TbChecks style={{ color: "#2ea44f" }} /></span><span className="me-2  ms-1">Client Libraries </span></li>
                 <li className="list-item"><span><TbChecks style={{ color: "#2ea44f" }} /></span><span className="me-2  ms-1">Scaling of dAPPs</span></li>
-
               </ul>
-
-
 
             </div>
           </div>
-
-
-
-
         </div>
-
       </div>
-
-
-
       <Footer />
     </section>
   )
